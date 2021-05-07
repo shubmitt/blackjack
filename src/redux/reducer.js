@@ -22,7 +22,7 @@ export const reducer = (state = initialState,action) => {
                 playerDeck:[...action.payload.playerSet],
                 dealerDeck:[...action.payload.dealerSet],
                 playerStick:false,
-                usedCards:[action.payload.playerSet.id,action.payload.dealerSet.id]
+                usedCards:(action.payload.playerSet.length || action.payload.dealerSet.length) && action.payload.playerSet.map(item => item.id).concat(action.payload.dealerSet.map(item => item.id))
             };
             default:
                 return state;
