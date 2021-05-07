@@ -1,0 +1,58 @@
+.player-board__btn-group button{
+    margin:1rem;
+}
+
+.player-board__btn-group{
+    margin:2rem;
+    position:relative;
+    top:60vh;
+}
+
+.main-container{
+    background: #286d17;
+    height:100vh;
+    padding: 1rem 2rem;
+    position: relative;
+    z-index:1;
+}
+
+.player-board__main{
+    border-right:2px solid #111;
+    height:100%;
+}
+
+.main-container h2{
+    margin-bottom:0.8rem;
+}
+
+.resultBox{
+    
+    width: 50%;
+    
+    z-index: 200;
+    padding:10px;
+    background-color: white;
+    opacity: 0.6;
+    text-align: center;
+    margin: auto;
+}
+
+.card-enter {
+    opacity: 0;
+  }
+  .card-enter-active {
+    opacity: 1;
+    transition: opacity .5s;
+  }
+  .card-exit {
+    opacity: 1;
+  }
+  .card-exit-active {
+    opacity: 0;
+    transition: opacity .5s;
+  }
+
+
+
+
+

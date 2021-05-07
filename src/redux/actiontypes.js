@@ -1,0 +1,3 @@
+export const HIT_DRAW = "HIT_DRAW";
+export const STICK_DEALER_DRAW = "STICK_DEALER_DRAW";
+export const INITIALISE_DECK = "INITIALISE_DECK";
